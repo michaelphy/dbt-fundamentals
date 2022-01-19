@@ -14,7 +14,8 @@ models:
         tests:
             - unique
             - not_null
-     - name: status
+
+      - name: status
         tests:
           - accepted_values:
               values:
