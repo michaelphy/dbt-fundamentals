@@ -13,7 +13,7 @@ models:
       - name: order_id
         tests:
             - unique
-             - not_null
+            - not_null
      - name: status
         tests:
           - accepted_values:
